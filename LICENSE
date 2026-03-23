@@ -1,0 +1,56 @@
+Copyright (c) 2026 Mohammadreza Safaeian
+All rights reserved.
+
+USB-C PD Bench Power Supply — hardware design and schematics
+and documentation.
+
+Contact: m.re.safaeian@gmail.com
+Repository: https://github.com/mohammadrezasafaeian
+
+
+TERMS
+
+This work is published for portfolio review and evaluation only.
+
+No permission is granted to copy, modify, distribute, manufacture, or create
+derivative works from any part of this design — including the schematics, the
+netlist, the bill of materials, or the
+documentation — without prior written permission from the copyright holder.
+
+You may:
+  - view and read the design
+  - reference it when evaluating the author's work
+  - quote short excerpts with attribution
+
+You may not:
+  - manufacture boards from it, commercially or otherwise
+  - redistribute it, in whole or in part
+  - publish derivative or modified versions
+  - remove or alter authorship, copyright, or provenance information
+
+Requests for licensing are welcome — please get in touch.
+
+
+THIRD-PARTY MATERIAL
+
+This design uses symbols and footprints from the stock KiCad libraries, which
+are licensed separately by the KiCad project (CC-BY-SA 4.0 with an exception
+for designs that merely use them). That licence covers those library elements
+only; it does not extend to this design.
+
+Component manufacturer names and part numbers are the property of their
+respective owners and are used for identification only.
+
+
+NO WARRANTY
+
+THE DESIGN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE DESIGN OR ITS USE.
+
+This design has not been built or tested in hardware. It handles voltages and
+currents that can damage equipment. Anyone building it does so at their own
+risk and is responsible for their own safety review.
