@@ -19,7 +19,7 @@
 "Q2","AON6324","Package_TO_SOT_SMD:TO-263-2"
 "Q3","AON6324","Package_TO_SOT_SMD:TO-263-2"
 "Q4","AON6324","Package_TO_SOT_SMD:TO-263-2"
-"Q5","TIP120","Package_TO_SOT_THT:TO-220-3_Vertical"
+"Q5","TIP127","Package_TO_SOT_THT:TO-220-3_Vertical"
 "R1","100k 1%","Resistor_SMD:R_0805_2012Metric"
 "R2","10k 1%","Resistor_SMD:R_0805_2012Metric"
 "R3","0R05 2W","Resistor_SMD:R_2512_6332Metric"

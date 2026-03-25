@@ -1,4 +1,4 @@
-ERC report (2026-08-01T14:04:28, Encoding UTF8)
+ERC report (2026-08-01T14:04:56, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -177,7 +177,7 @@ Report includes: Errors, Warnings
     @(317.50 mm, 128.27 mm): Symbol U4 [LM358]
 [lib_symbol_issues]: The symbol library 'Transistor_BJT' was not found at '/usr/share/kicad/symbols/Transistor_BJT.kicad_sym'
     ; warning
-    @(326.39 mm, 49.53 mm): Symbol Q5 [TIP120]
+    @(326.39 mm, 49.53 mm): Symbol Q5 [TIP127]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(334.01 mm, 96.52 mm): Symbol R4 [R]

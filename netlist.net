@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Tick\\OneDrive\\Documents\\usbc-pd-bench-psu\\usbc_pd_psu.kicad_sch")
-		(date "2026-08-01T14:04:08")
+		(date "2026-08-01T14:04:36")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -11,12 +11,12 @@
 			(title_block
 				(title "USB-C PD Bench PSU  -  4-Switch Buck-Boost + PNP Linear Post-Regulator")
 				(company "Mohammadreza Safaeian  -  personal project")
-				(rev "v0.3")
-				(date "2026-03-24")
+				(rev "v0.4")
+				(date "2026-03-25")
 				(source "usbc_pd_psu.kicad_sch")
 				(comment
 					(number "1")
-					(value "Single-sheet design  -  v0.3")
+					(value "Single-sheet design  -  v0.4")
 				)
 				(comment
 					(number "2")
@@ -93,7 +93,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "fbbc07a9-7cec-4b27-853c-e120cbfdc08c")
+			(tstamps "1c7e6683-f8d7-45d2-aca9-c68fd709c206")
 			(units
 				(unit
 					(name "A")
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8db3b63e-66a4-4cc9-87ac-a1147a238cb0")
+			(tstamps "16c4079f-882f-40b9-ad32-e6ef92ba8018")
 			(units
 				(unit
 					(name "A")
@@ -201,7 +201,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4885ab74-5620-45bf-817c-2882a44e9630")
+			(tstamps "524a4d00-9de4-49fa-ae06-0d0738410d13")
 			(units
 				(unit
 					(name "A")
@@ -255,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "747868e8-3369-418d-b527-6d05e357d7e6")
+			(tstamps "6b5dcb5e-64ed-4288-8ffe-3e1f9a7ea70d")
 			(units
 				(unit
 					(name "A")
@@ -309,7 +309,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "be098e7a-5fba-4e17-890c-9ff46fb879ff")
+			(tstamps "db15d7a5-0567-46a8-b490-744c1619cdb6")
 			(units
 				(unit
 					(name "A")
@@ -363,7 +363,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c0af4c82-f0a3-4aa3-9863-bd593ff21eff")
+			(tstamps "8eca3363-4dff-499a-a0ec-846f46495e63")
 			(units
 				(unit
 					(name "A")
@@ -417,7 +417,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "628b1491-49d9-483e-a61e-09cdca5d0350")
+			(tstamps "2572ace6-541c-4a29-9b4c-c36bf4395302")
 			(units
 				(unit
 					(name "A")
@@ -471,7 +471,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "23f567e0-1f5f-48cd-ae73-2bcacf068320")
+			(tstamps "26bc2841-c4d6-4bee-af71-e5dcb9923bfc")
 			(units
 				(unit
 					(name "A")
@@ -525,7 +525,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "69d00a2a-8c94-4db2-a509-7610e8e0eb93")
+			(tstamps "0bce9b9f-ded5-4238-9807-4ce5390d8c3b")
 			(units
 				(unit
 					(name "A")
@@ -579,7 +579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9eec4ffe-c9f1-4570-9c8d-253d4cbd46d5")
+			(tstamps "402fa80d-81eb-4a1e-9dc9-b5f1c2b32ce0")
 			(units
 				(unit
 					(name "A")
@@ -633,7 +633,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5ed515f4-c840-47e7-96d4-986913c6731b")
+			(tstamps "911af8d3-b9bc-4c46-8709-b961cf211a47")
 			(units
 				(unit
 					(name "A")
@@ -687,7 +687,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ee6ef626-8c39-4f36-b831-00a9a5e9c47e")
+			(tstamps "9d053c34-f1cf-41a1-bd31-9de84509478b")
 			(units
 				(unit
 					(name "A")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "53ecbfa1-3bef-4247-9682-87d27c73c1b1")
+			(tstamps "ed089bb5-878e-4a0d-bb37-42125b4e24e3")
 			(units
 				(unit
 					(name "A")
@@ -810,7 +810,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e48cc8f4-9979-40e3-ade2-fa60d696b6a6")
+			(tstamps "7e84c15c-e206-45d6-9960-7e046c52e3da")
 			(units
 				(unit
 					(name "A")
@@ -864,7 +864,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "023076d5-c66c-4364-abde-b7878952a366")
+			(tstamps "41a1a0f5-afc9-426f-81b3-35d22bf45ca8")
 			(units
 				(unit
 					(name "A")
@@ -924,7 +924,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b83b7f6f-cc57-4b67-9184-9b8b49ccf3ff")
+			(tstamps "fd429267-b396-4bf8-bbbd-29c716036ebb")
 			(units
 				(unit
 					(name "A")
@@ -974,7 +974,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5b8b5e0f-306f-44c7-b38f-7f468785e3c7")
+			(tstamps "e2b785b7-2c4a-4a71-a6d1-e2904053ca89")
 			(units
 				(unit
 					(name "A")
@@ -1027,7 +1027,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "31b8ba8d-91dc-48de-839d-e64d3a4adc73")
+			(tstamps "7b1d8da1-0bf7-4e9c-8aa6-25c663f8e3de")
 			(units
 				(unit
 					(name "A")
@@ -1080,7 +1080,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e2949806-6100-4599-b0be-7122cad98f6e")
+			(tstamps "75394863-9993-4dc7-90cd-89478c5c7f72")
 			(units
 				(unit
 					(name "A")
@@ -1133,7 +1133,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0c0c7096-8ac8-43e0-b3ca-09e5f7c3e788")
+			(tstamps "ca375165-10e8-4c2e-8770-d1d1e4c773b4")
 			(units
 				(unit
 					(name "A")
@@ -1153,7 +1153,7 @@
 		)
 		(comp
 			(ref "Q5")
-			(value "TIP120")
+			(value "TIP127")
 			(footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
 			(fields
 				(field
@@ -1167,8 +1167,8 @@
 			)
 			(libsource
 				(lib "Transistor_BJT")
-				(part "TIP120")
-				(description "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220")
+				(part "TIP127")
+				(description "5A Ic, 100V Vce, Silicon Darlington Power PNP Transistor, TO-220")
 			)
 			(property
 				(name "Sheetname")
@@ -1180,7 +1180,7 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "Darlington Power NPN Transistor")
+				(value "Darlington Power PNP Transistor")
 			)
 			(property
 				(name "ki_fp_filters")
@@ -1190,7 +1190,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "72a825cd-7d34-4f84-8d31-c6b0cd457184")
+			(tstamps "9d1a34e7-d241-4a0b-93ad-a77afce6407d")
 			(units
 				(unit
 					(name "A")
@@ -1247,7 +1247,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8cf14f05-eba6-42d5-a653-c74f10ce66b9")
+			(tstamps "5308f25b-6e0c-445d-98a1-81689464c24f")
 			(units
 				(unit
 					(name "A")
@@ -1301,7 +1301,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2c1dd229-f432-42b2-8aa3-c35fac6dfd31")
+			(tstamps "12a3809d-34f6-4e37-8194-2036c9b9ade6")
 			(units
 				(unit
 					(name "A")
@@ -1355,7 +1355,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d7418210-27d7-4e4e-8cfa-a418473624f7")
+			(tstamps "9f4754aa-8c06-4a8f-b2f4-c8c588ce1761")
 			(units
 				(unit
 					(name "A")
@@ -1409,7 +1409,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d8d49a74-e0e8-4487-829b-a4e329e56f0a")
+			(tstamps "bc74f0e1-391c-40cd-bcaa-8cda653057ae")
 			(units
 				(unit
 					(name "A")
@@ -1463,7 +1463,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1a76a1d3-1667-4ee2-8e88-7b9b4c149a60")
+			(tstamps "42a52380-c570-4e62-9a07-991dedf7747c")
 			(units
 				(unit
 					(name "A")
@@ -1517,7 +1517,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6c46ddb7-af93-4a47-bc06-541d20def415")
+			(tstamps "ef635e7a-3b5a-4ce8-8428-0f7586f0b5d6")
 			(units
 				(unit
 					(name "A")
@@ -1571,7 +1571,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "18a47316-2097-4c06-9fad-9c0da6bf0aa0")
+			(tstamps "cbcb4f8c-a069-4503-9a12-d231dba22234")
 			(units
 				(unit
 					(name "A")
@@ -1625,7 +1625,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b0858216-fa4d-464a-9134-d08720d3b4ff")
+			(tstamps "92e9f090-9a47-4cee-a1f2-c4dd030858d9")
 			(units
 				(unit
 					(name "A")
@@ -1679,7 +1679,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6f30134c-6135-4212-affa-d3a5b9282f99")
+			(tstamps "b01e01c9-c0c9-4b5f-8f2b-dc71498ad20d")
 			(units
 				(unit
 					(name "A")
@@ -1760,7 +1760,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ab78448b-e321-4475-ba4a-39c8716ae99e")
+			(tstamps "52425deb-c7c9-4a05-aee9-c59b525b5416")
 			(units
 				(unit
 					(name "A")
@@ -1832,7 +1832,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1f1f8fbe-3ec0-4c44-866a-d48b3b29964b")
+			(tstamps "a0a988ce-33a0-48d2-9551-08ba88ca2f81")
 			(units
 				(unit
 					(name "A")
@@ -1904,8 +1904,8 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7151b5db-cf80-4bc5-b8b1-9793d2b6f076" "71150216-6e4c-4701-8add-02c5786b4a1c"
-				"26c05942-c4ee-451e-a612-eb7490884dfd"
+			(tstamps "f4d314d7-e215-4db9-a678-6e0fda9af979" "b6a89cde-9988-45d2-9359-a89c57eb4336"
+				"45b990b9-233a-44a1-8ad6-6e95dddfad57"
 			)
 			(units
 				(unit
@@ -1988,7 +1988,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "52458dd5-7eed-403c-a218-3686890cbd90")
+			(tstamps "802f8478-ea0c-4021-aa61-0f5561a312c4")
 			(units
 				(unit
 					(name "A")
@@ -2045,7 +2045,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8def9789-b261-4f67-8efa-94ef907b73a8")
+			(tstamps "30c4c528-071d-4a3e-8f2a-532bb3172ca0")
 			(units
 				(unit
 					(name "A")
@@ -2879,8 +2879,8 @@
 		)
 		(libpart
 			(lib "Transistor_BJT")
-			(part "TIP120")
-			(description "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220")
+			(part "TIP127")
+			(description "5A Ic, 100V Vce, Silicon Darlington Power PNP Transistor, TO-220")
 			(docs "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF")
 			(footprints
 				(fp "TO?220*")
@@ -2889,13 +2889,13 @@
 				(field
 					(name "Reference") "Q")
 				(field
-					(name "Value") "TIP120")
+					(name "Value") "TIP127")
 				(field
 					(name "Footprint") "Package_TO_SOT_THT:TO-220-3_Vertical")
 				(field
 					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF")
 				(field
-					(name "Description") "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220")
+					(name "Description") "5A Ic, 100V Vce, Silicon Darlington Power PNP Transistor, TO-220")
 			)
 			(pins
 				(pin
