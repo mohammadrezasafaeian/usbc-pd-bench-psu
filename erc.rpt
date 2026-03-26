@@ -1,4 +1,4 @@
-ERC report (2026-08-01T14:04:56, Encoding UTF8)
+ERC report (2026-08-01T14:05:28, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -26,7 +26,7 @@ Report includes: Errors, Warnings
     @(34.29 mm, 93.98 mm): Symbol #PWR01 [GND]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
-    @(34.29 mm, 248.92 mm): Symbol #PWR29 [GND]
+    @(34.29 mm, 248.92 mm): Symbol #PWR39 [GND]
 [lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/usr/share/kicad/symbols/Connector_Generic.kicad_sym'
     ; warning
     @(39.37 mm, 243.84 mm): Symbol J3 [Conn_01x04]
@@ -54,10 +54,6 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(73.66 mm, 58.42 mm): Symbol #PWR03 [GND]
-[multiple_net_names]: Both +5V and GND are attached to the same items; +5V will be used in the netlist
-    ; warning
-    @(167.64 mm, 111.76 mm): Symbol #PWR09 Pin 1 [Power input, Line]
-    @(73.66 mm, 58.42 mm): Symbol #PWR03 Pin 1 [Power input, Line]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(76.20 mm, 180.34 mm): Symbol #PWR23 [+5V]
@@ -82,6 +78,27 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(111.76 mm, 74.93 mm): Symbol #PWR06 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(130.81 mm, 179.07 mm): Symbol C9 [C]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(130.81 mm, 186.69 mm): Symbol #PWR37 [GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(133.35 mm, 217.17 mm): Global Label 'UART_RX'
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(140.97 mm, 152.40 mm): Symbol #PWR36 [+5V]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(140.97 mm, 160.02 mm): Symbol R9 [R]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(157.48 mm, 182.88 mm): Symbol R10 [R]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(157.48 mm, 190.50 mm): Symbol #PWR38 [GND]
 [lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/usr/share/kicad/symbols/Transistor_FET.kicad_sym'
     ; warning
     @(167.64 mm, 55.88 mm): Symbol Q1 [Q_NMOS_GDS]
@@ -99,34 +116,59 @@ Report includes: Errors, Warnings
     @(167.64 mm, 142.24 mm): Symbol #PWR10 [GND]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
-    @(176.53 mm, 175.26 mm): Symbol #PWR26 [+5V]
-[lib_symbol_issues]: The symbol library 'MCU_WCH_CH32V0' was not found at '/usr/share/kicad/symbols/MCU_WCH_CH32V0.kicad_sym'
-    ; warning
-    @(176.53 mm, 204.47 mm): Symbol U6 [CH32V003FxPx]
+    @(173.99 mm, 158.75 mm): Symbol #PWR29 [+5V]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
-    @(176.53 mm, 222.25 mm): Symbol #PWR28 [GND]
+    @(176.53 mm, 158.75 mm): Symbol #PWR26 [+5V]
+[lib_symbol_issues]: The symbol library 'MCU_WCH_CH32V2' was not found at '/usr/share/kicad/symbols/MCU_WCH_CH32V2.kicad_sym'
+    ; warning
+    @(176.53 mm, 204.47 mm): Symbol U6 [CH32V203CxTx]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(176.53 mm, 245.11 mm): Symbol #PWR31 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(176.53 mm, 245.11 mm): Symbol #PWR34 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(176.53 mm, 245.11 mm): Symbol #PWR33 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(179.07 mm, 158.75 mm): Symbol #PWR27 [+5V]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(179.07 mm, 245.11 mm): Symbol #PWR32 [GND]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(181.61 mm, 119.38 mm): Symbol C3 [C]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(181.61 mm, 158.75 mm): Symbol #PWR28 [+5V]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(184.15 mm, 158.75 mm): Symbol #PWR30 [+5V]
 [lib_symbol_issues]: The symbol library 'Diode' was not found at '/usr/share/kicad/symbols/Diode.kicad_sym'
     ; warning
     @(186.69 mm, 111.76 mm): Symbol D2 [1N4148W]
-[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
-    ; warning
-    @(187.96 mm, 182.88 mm): Symbol C8 [C]
-[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
-    ; warning
-    @(187.96 mm, 190.50 mm): Symbol #PWR27 [GND]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(194.31 mm, 111.76 mm): Symbol #PWR11 [+5V]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(198.12 mm, 166.37 mm): Symbol C8 [C]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(198.12 mm, 170.18 mm): Symbol #PWR35 [GND]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(205.74 mm, 77.47 mm): Symbol L1 [L]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(205.74 mm, 118.11 mm): Symbol #PWR07 [GND]
+[multiple_net_names]: Both +5V and GND are attached to the same items; +5V will be used in the netlist
+    ; warning
+    @(361.95 mm, 205.74 mm): Symbol #PWR48 Pin 1 [Power input, Line]
+    @(205.74 mm, 118.11 mm): Symbol #PWR07 Pin 1 [Power input, Line]
 [lib_symbol_issues]: The symbol library 'Transistor_FET' was not found at '/usr/share/kicad/symbols/Transistor_FET.kicad_sym'
     ; warning
     @(243.84 mm, 55.88 mm): Symbol Q3 [Q_NMOS_GDS]
@@ -145,6 +187,9 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(257.81 mm, 119.38 mm): Symbol C4 [C]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(259.08 mm, 179.07 mm): Symbol #PWR40 [GND]
 [lib_symbol_issues]: The symbol library 'Diode' was not found at '/usr/share/kicad/symbols/Diode.kicad_sym'
     ; warning
     @(261.62 mm, 111.76 mm): Symbol D3 [1N4148W]
@@ -157,6 +202,18 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(270.51 mm, 111.76 mm): Symbol #PWR14 [+5V]
+[lib_symbol_issues]: The symbol library 'Connector_Generic' was not found at '/usr/share/kicad/symbols/Connector_Generic.kicad_sym'
+    ; warning
+    @(271.78 mm, 176.53 mm): Symbol J4 [Conn_01x04]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(274.32 mm, 171.45 mm): Symbol #PWR41 [+5V]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(285.75 mm, 220.98 mm): Symbol #PWR42 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(299.72 mm, 214.63 mm): Symbol SW1 [RotaryEncoder_Switch]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(303.53 mm, 134.62 mm): Symbol #PWR17 [GND]
@@ -169,6 +226,9 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(308.61 mm, 82.55 mm): Symbol #PWR21 [GND]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(313.69 mm, 223.52 mm): Symbol #PWR43 [GND]
 [lib_symbol_issues]: The symbol library 'Amplifier_Operational' was not found at '/usr/share/kicad/symbols/Amplifier_Operational.kicad_sym'
     ; warning
     @(317.50 mm, 96.52 mm): Symbol U4 [LM358]
@@ -181,6 +241,24 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(334.01 mm, 96.52 mm): Symbol R4 [R]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(336.55 mm, 176.53 mm): Symbol #PWR44 [GND]
+[lib_symbol_issues]: The symbol library 'Switch' was not found at '/usr/share/kicad/symbols/Switch.kicad_sym'
+    ; warning
+    @(341.63 mm, 176.53 mm): Symbol SW2 [SW_Push]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(341.63 mm, 205.74 mm): Symbol #PWR47 [+5V]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(341.63 mm, 212.09 mm): Symbol D4 [LED]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(341.63 mm, 223.52 mm): Symbol R11 [R]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(356.87 mm, 176.53 mm): Symbol #PWR45 [GND]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(361.95 mm, 82.55 mm): Symbol R5 [R]
@@ -190,15 +268,42 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(361.95 mm, 105.41 mm): Symbol #PWR20 [GND]
+[lib_symbol_issues]: The symbol library 'Switch' was not found at '/usr/share/kicad/symbols/Switch.kicad_sym'
+    ; warning
+    @(361.95 mm, 176.53 mm): Symbol SW3 [SW_Push]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(361.95 mm, 205.74 mm): Symbol #PWR48 [+5V]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(361.95 mm, 212.09 mm): Symbol D5 [LED]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(361.95 mm, 223.52 mm): Symbol R12 [R]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(365.76 mm, 66.04 mm): Symbol R3 [R]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(377.19 mm, 176.53 mm): Symbol #PWR46 [GND]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
     @(378.46 mm, 78.74 mm): Symbol C5 [C_Polarized]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(378.46 mm, 86.36 mm): Symbol #PWR15 [GND]
+[lib_symbol_issues]: The symbol library 'Switch' was not found at '/usr/share/kicad/symbols/Switch.kicad_sym'
+    ; warning
+    @(382.27 mm, 176.53 mm): Symbol SW4 [SW_Push]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(382.27 mm, 205.74 mm): Symbol #PWR49 [+5V]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(382.27 mm, 212.09 mm): Symbol D6 [LED]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
+    @(382.27 mm, 223.52 mm): Symbol R13 [R]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(389.89 mm, 88.90 mm): Symbol #PWR18 [+5V]
@@ -215,7 +320,7 @@ Report includes: Errors, Warnings
     ; warning
     @(408.94 mm, 63.50 mm): Symbol #PWR16 [GND]
 
- ** ERC messages: 70  Errors 3  Warnings 67
+ ** ERC messages: 105  Errors 3  Warnings 102
 
  ** Ignored checks:
     - Global label only appears once in the schematic
