@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Tick\\OneDrive\\Documents\\usbc-pd-bench-psu\\usbc_pd_psu.kicad_sch")
-		(date "2026-08-01T14:06:08")
+		(date "2026-08-01T14:06:55")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -11,8 +11,8 @@
 			(title_block
 				(title "USB-C PD Bench PSU  -  4-Switch Buck-Boost + PNP Linear Post-Regulator")
 				(company "Mohammadreza Safaeian  -  personal project")
-				(rev "v1.1")
-				(date "2026-04-15")
+				(rev "v1.2")
+				(date "2026-04-25")
 				(source "usbc_pd_psu.kicad_sch")
 				(comment
 					(number "1")
@@ -55,12 +55,12 @@
 		(sheet
 			(number "2")
 			(name "/Power Path/")
-			(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+			(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			(title_block
 				(title "USB-C PD Bench PSU  -  4-Switch Buck-Boost + PNP Linear Post-Regulator")
 				(company "Mohammadreza Safaeian  -  personal project")
-				(rev "v1.1")
-				(date "2026-04-15")
+				(rev "v1.2")
+				(date "2026-04-25")
 				(source "power.kicad_sch")
 				(comment
 					(number "1")
@@ -103,12 +103,12 @@
 		(sheet
 			(number "3")
 			(name "/Control and UI/")
-			(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+			(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			(title_block
 				(title "USB-C PD Bench PSU  -  4-Switch Buck-Boost + PNP Linear Post-Regulator")
 				(company "Mohammadreza Safaeian  -  personal project")
-				(rev "v1.1")
-				(date "2026-04-15")
+				(rev "v1.2")
+				(date "2026-04-25")
 				(source "control.kicad_sch")
 				(comment
 					(number "1")
@@ -187,9 +187,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "a524fa56-02e0-4500-a7d5-40fd4246325b")
+			(tstamps "0c7186c6-b76b-408f-b36a-d1a822a0560d")
 			(units
 				(unit
 					(name "A")
@@ -241,9 +241,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "6f61f287-1709-4610-b103-1d00f1b12d4f")
+			(tstamps "b094c253-e5ee-4d38-8bb8-419bd99ef33a")
 			(units
 				(unit
 					(name "A")
@@ -295,9 +295,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "63f51737-a90a-4b25-a825-726bbc9f4501")
+			(tstamps "55e7846f-3dc1-48d8-876e-c087a8299f5b")
 			(units
 				(unit
 					(name "A")
@@ -349,9 +349,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "522a6958-395d-46e4-994e-450b56188345")
+			(tstamps "de369c13-d4fb-486a-994a-fdc34cd8aa12")
 			(units
 				(unit
 					(name "A")
@@ -403,9 +403,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "c9ecd4fe-fd89-44ab-9334-12ea8b21469a")
+			(tstamps "a5cbca6b-abf0-4ec9-9394-2b259f6b6c3c")
 			(units
 				(unit
 					(name "A")
@@ -457,9 +457,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "d43cfae0-adc5-453c-88cd-73aba935025d")
+			(tstamps "1a8088bf-65a2-4eda-982a-35fb3a572b6e")
 			(units
 				(unit
 					(name "A")
@@ -511,9 +511,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "42b86862-1578-4f12-8063-eb47e0ce0878")
+			(tstamps "c57128f5-2c0e-4696-b032-01d10e7bbc08")
 			(units
 				(unit
 					(name "A")
@@ -565,9 +565,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "a99669af-17c9-4e79-957d-6e9a9cbd7a87")
+			(tstamps "2fd7d12a-5dfe-4a34-97dc-345ef98772bb")
 			(units
 				(unit
 					(name "A")
@@ -619,9 +619,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "9fa48537-af41-4768-ad89-b6302f387875")
+			(tstamps "bd191c42-7e57-4311-bec6-1343f082a890")
 			(units
 				(unit
 					(name "A")
@@ -673,9 +673,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "08e8df5a-809e-471a-99e2-05dc43e6cfad")
+			(tstamps "2e246758-98c9-440b-a7e1-dbde73341ecd")
 			(units
 				(unit
 					(name "A")
@@ -692,7 +692,7 @@
 		)
 		(comp
 			(ref "C11")
-			(value "22u/35V")
+			(value "22u/63V")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(fields
 				(field
@@ -727,9 +727,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "469d71a7-5ed1-4406-9708-27ac6c90d443")
+			(tstamps "bec8668f-b6c2-4fc0-ac75-46a349bfbea4")
 			(units
 				(unit
 					(name "A")
@@ -781,9 +781,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "38622a08-74de-443c-8167-3d22d5bd0c89")
+			(tstamps "729b3d24-6a4c-44b2-8998-b3e6c8addfea")
 			(units
 				(unit
 					(name "A")
@@ -835,9 +835,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "a466ecd6-e12e-4e74-b35e-73cd72e532c5")
+			(tstamps "6b483ea4-986f-484a-b9a5-aea3f3ad5a34")
 			(units
 				(unit
 					(name "A")
@@ -889,9 +889,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "e1f0aaac-1743-4b8e-8250-ef11845defd4")
+			(tstamps "fe58259b-29bf-4920-b6c2-68c06686141b")
 			(units
 				(unit
 					(name "A")
@@ -943,9 +943,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "5d065743-474e-4435-8886-07c5c1fb24f4")
+			(tstamps "0dc4f5de-cb58-44f1-b31e-ab0baf800d0c")
 			(units
 				(unit
 					(name "A")
@@ -997,9 +997,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "b2621d9c-2364-4aab-8589-ad506f37e2e1")
+			(tstamps "b78a00c8-2fda-4f8e-b024-a5f0335238f6")
 			(units
 				(unit
 					(name "A")
@@ -1051,9 +1051,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "bbb5690f-f14b-4d28-a400-ac690196fe24")
+			(tstamps "bebeb0bb-dc0b-445e-abc3-eccc196fa67d")
 			(units
 				(unit
 					(name "A")
@@ -1105,9 +1105,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "bde701b8-3db0-40c0-ac6b-e815d8e9549c")
+			(tstamps "9ed3dc21-ccba-4a3f-9446-fc0849f493c0")
 			(units
 				(unit
 					(name "A")
@@ -1159,9 +1159,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "9cdc6ce1-9864-4c77-8c0d-48d0fe3b40bf")
+			(tstamps "92b5f512-7c0a-4975-b68a-7fc63e71f61c")
 			(units
 				(unit
 					(name "A")
@@ -1213,9 +1213,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "532de619-95f4-4f25-b4ac-5d05ca21cdc9")
+			(tstamps "c2f8f38a-cc50-4415-891e-d7309c74cf6c")
 			(units
 				(unit
 					(name "A")
@@ -1267,9 +1267,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "b6da9523-c600-469b-b136-bafac24cbbe1")
+			(tstamps "fea0ece0-4f99-4c36-8c31-22ee00d1ab68")
 			(units
 				(unit
 					(name "A")
@@ -1321,9 +1321,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "e8296fab-4f84-47ef-a28f-7e4b410ed5a4")
+			(tstamps "50b22185-c12c-40a2-be79-1b4c2f88d41f")
 			(units
 				(unit
 					(name "A")
@@ -1375,9 +1375,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "9d009454-91d0-45f1-ad42-0d57244bf7cb")
+			(tstamps "64c32b5a-3594-4689-902c-cef7c2240a9e")
 			(units
 				(unit
 					(name "A")
@@ -1429,9 +1429,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "8405b032-6747-49b0-b918-a81012e96b3a")
+			(tstamps "d118a91d-1e35-460b-a597-866d6090e4b8")
 			(units
 				(unit
 					(name "A")
@@ -1498,9 +1498,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "dcbcbb3b-33b4-4105-8613-0571a5c517ed")
+			(tstamps "a16cb05d-c697-41f4-8489-ae24d042b481")
 			(units
 				(unit
 					(name "A")
@@ -1552,9 +1552,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "4e0b514e-8ab3-449d-8622-e6cbae51c2b1")
+			(tstamps "551480eb-93d1-4621-9e31-95a648dee16e")
 			(units
 				(unit
 					(name "A")
@@ -1602,9 +1602,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "6bff20a3-2e6d-414c-b77c-5910e81f3ac7")
+			(tstamps "1e1c12e4-47e3-4a75-8d36-d33627f28e86")
 			(units
 				(unit
 					(name "A")
@@ -1655,9 +1655,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "f06b3aa2-f13c-477f-9668-c58e0e384caf")
+			(tstamps "2c8a4bd0-3e1f-4fe2-9e8f-2401e2dae3ce")
 			(units
 				(unit
 					(name "A")
@@ -1708,9 +1708,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "867b24ac-6dde-47a5-a2d1-abe1e2a38346")
+			(tstamps "1bd80d64-9aed-43ba-b4aa-7581e798d8e0")
 			(units
 				(unit
 					(name "A")
@@ -1761,9 +1761,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "a7f2f776-fcc0-49d3-bca9-4430a5dd94bf")
+			(tstamps "fe4f89b1-f3f0-4866-9724-df68d2d5e8ea")
 			(units
 				(unit
 					(name "A")
@@ -1818,9 +1818,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "6c83e783-b560-44ec-ab18-eadec2d2d942")
+			(tstamps "07d06eed-6a56-48ec-bad3-acf776c106c5")
 			(units
 				(unit
 					(name "A")
@@ -1872,9 +1872,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "21714567-8137-4bad-8b43-d40a778dc5dd")
+			(tstamps "eb48cd11-99d8-481f-8739-eed4c5fd8593")
 			(units
 				(unit
 					(name "A")
@@ -1926,9 +1926,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "735ec679-2b61-4173-b778-eb07003d9c84")
+			(tstamps "5bd5c632-e903-4126-99c0-7b2a9a16c8c8")
 			(units
 				(unit
 					(name "A")
@@ -1980,9 +1980,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "2ea71024-eed5-42e3-9152-d71e0ec89b39")
+			(tstamps "d9bfcd50-e88b-486f-b63e-0947a918396b")
 			(units
 				(unit
 					(name "A")
@@ -2034,9 +2034,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "d1718c03-0ebf-4bc0-a7b1-081de6c58d1e")
+			(tstamps "4cf182af-e99c-446d-a69b-fad6e516260c")
 			(units
 				(unit
 					(name "A")
@@ -2088,9 +2088,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "f7de66c8-02d0-4cc6-b7e5-05f21e9a55a3")
+			(tstamps "c1935e33-471b-4e7d-a27a-1732a3d817e7")
 			(units
 				(unit
 					(name "A")
@@ -2142,9 +2142,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "44f145b8-d766-43e9-8a05-6ccf3cc75fae")
+			(tstamps "5e741945-246a-4427-93f5-abc288898912")
 			(units
 				(unit
 					(name "A")
@@ -2196,9 +2196,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "2008519f-5083-43ef-9a02-f34f62c91eb4")
+			(tstamps "37c3fa3c-ce39-4084-b3a0-205583acb8c8")
 			(units
 				(unit
 					(name "A")
@@ -2250,9 +2250,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "f3e728e3-96ac-4f0e-9abb-10c24c5c8872")
+			(tstamps "e2216309-04da-4de6-ac51-23c772a8d827")
 			(units
 				(unit
 					(name "A")
@@ -2304,9 +2304,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "a0c40895-37f3-420f-9b51-3336d57a8237")
+			(tstamps "def91f93-301a-432b-82f5-e51281ee2045")
 			(units
 				(unit
 					(name "A")
@@ -2358,9 +2358,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "500d2e2e-9555-4ee0-a1e3-7a26158927a4")
+			(tstamps "e17c7397-e7bd-4d69-a7f0-bae89ae15755")
 			(units
 				(unit
 					(name "A")
@@ -2412,9 +2412,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "47cd8f49-f803-48ba-b490-ee01692b06db")
+			(tstamps "03ada5f3-74f4-4434-a7f2-81d650b33b7e")
 			(units
 				(unit
 					(name "A")
@@ -2466,9 +2466,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "0dd99981-8153-48b0-b740-65e89eed1432")
+			(tstamps "d1cb7d89-470b-493b-b6f2-d0308366dfc9")
 			(units
 				(unit
 					(name "A")
@@ -2520,9 +2520,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "8c7e37a8-c1d0-4f74-a206-77243f95e6c1")
+			(tstamps "67c909c3-7188-4755-b825-e583e27d7df5")
 			(units
 				(unit
 					(name "A")
@@ -2574,9 +2574,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "425738ba-0057-47f3-8c4d-e48946ca019f")
+			(tstamps "d9af5e79-63d8-4037-b8b4-ff0e30f7b4cd")
 			(units
 				(unit
 					(name "A")
@@ -2628,9 +2628,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "22a6d2f6-e7b1-4150-9f68-a212620dd2c0")
+			(tstamps "4b78715f-6ee9-4e7d-b4fd-2bff47b313ef")
 			(units
 				(unit
 					(name "A")
@@ -2682,9 +2682,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "f9d94731-b86c-41ae-9622-32e7dbd308e4")
+			(tstamps "2cdaa9f9-1a59-422e-9ad9-c0db45106302")
 			(units
 				(unit
 					(name "A")
@@ -2733,9 +2733,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "fe99f54e-ff6d-4c54-9ece-17a33d23d7d0")
+			(tstamps "168f1a34-1787-4229-8160-4b1617c96656")
 			(units
 				(unit
 					(name "A")
@@ -2784,9 +2784,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "950db2a6-e980-4c9c-9361-2886da4141ac")
+			(tstamps "170257b2-fac1-494a-a9f8-3176b344f559")
 			(units
 				(unit
 					(name "A")
@@ -2835,9 +2835,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "3542d795-c67d-4165-8bd9-1fa0a1fb2df0")
+			(tstamps "c8c1edd9-43c9-49db-9ccd-bb00bfd98f9a")
 			(units
 				(unit
 					(name "A")
@@ -2886,9 +2886,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "c82519fa-d003-458d-88d1-fc490db0b820")
+			(tstamps "231bce6f-ca4c-44eb-b836-382ef7eedf5c")
 			(units
 				(unit
 					(name "A")
@@ -2937,9 +2937,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "06464008-857b-425b-8b26-f74d415d3822")
+			(tstamps "a30ee024-ac4c-4b94-af02-8b2b03d9a865")
 			(units
 				(unit
 					(name "A")
@@ -3018,9 +3018,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "45c8701e-66b4-43ff-9e89-09d8b6301e89")
+			(tstamps "99b56c41-ef15-47bb-9c83-f91085db5bf6")
 			(units
 				(unit
 					(name "A")
@@ -3084,9 +3084,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "69674a2e-1b35-4374-9f4b-0e33bb405310")
+			(tstamps "fe7fb8ae-4c21-43f4-a746-8ea00c1ed21e")
 			(units
 				(unit
 					(name "A")
@@ -3141,9 +3141,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "457e64f4-4d8e-4ede-acc3-9bba26c023e6")
+			(tstamps "d1a36d8e-c63f-4194-ba5d-fa7b91d6ee7b")
 			(units
 				(unit
 					(name "A")
@@ -3198,9 +3198,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "bbb61ea8-b168-40ab-af0d-2e2643a7a410")
+			(tstamps "399a8350-fce4-4a1c-a1b6-5b16ecc70e70")
 			(units
 				(unit
 					(name "A")
@@ -3270,9 +3270,9 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "c44220df-0f49-4e64-ab74-a3f99179901a")
+			(tstamps "98a25d6a-582d-4d17-a199-37dffcf92c98")
 			(units
 				(unit
 					(name "A")
@@ -3342,10 +3342,10 @@
 			)
 			(sheetpath
 				(names "/Power Path/")
-				(tstamps "/024eb734-39e4-4276-ba03-79435cb44626/")
+				(tstamps "/c668c62b-0919-4e24-8058-92970f560e50/")
 			)
-			(tstamps "173635b3-744e-4d9b-957e-97c2d9b59ec8" "7a62cc79-7864-41a9-ad1c-43faf0ef06fd"
-				"05e64e27-026f-4129-bd31-020bc7b87d81"
+			(tstamps "75a0f530-a55a-4c1a-9e16-a9d0977ff0c6" "6be4b0c9-6d47-4b68-b7cd-5bf13c8e9d11"
+				"68e065e4-b4de-4c26-bc56-c67df9287112"
 			)
 			(units
 				(unit
@@ -3391,7 +3391,7 @@
 		)
 		(comp
 			(ref "C19")
-			(value "220u/25V")
+			(value "220u/63V")
 			(footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
 			(fields
 				(field
@@ -3426,9 +3426,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "e1617685-f71e-4892-9af2-26e5384d59b4")
+			(tstamps "40f9e897-e808-477f-8760-a04d81f16e5e")
 			(units
 				(unit
 					(name "A")
@@ -3480,9 +3480,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "65d40318-86d4-46ce-bbcc-97c39aada01d")
+			(tstamps "0cbd4a05-b6f0-4769-86f1-2cb0a71b3dde")
 			(units
 				(unit
 					(name "A")
@@ -3534,9 +3534,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "08d1485a-ab48-4066-886b-021cfc525156")
+			(tstamps "6829b16a-37d8-435a-99a5-8779e827f665")
 			(units
 				(unit
 					(name "A")
@@ -3588,9 +3588,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "72c51cc5-1d1e-4a75-845c-95d02a40bc93")
+			(tstamps "22a89d13-fe98-4e11-a617-bb40cfcd0169")
 			(units
 				(unit
 					(name "A")
@@ -3642,9 +3642,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "a7a802a4-7fd5-4eca-9c15-e0e8e4c24947")
+			(tstamps "215d7be8-57ef-49f2-bbe1-582248eb23b5")
 			(units
 				(unit
 					(name "A")
@@ -3696,9 +3696,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "c390c16e-0f4e-4d97-87b7-1b42dc9eae20")
+			(tstamps "7d5381ef-c111-4dbd-9825-459e2edf191f")
 			(units
 				(unit
 					(name "A")
@@ -3750,9 +3750,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "e690acd5-d134-484d-b121-aa56c5f62e95")
+			(tstamps "1ba280ca-1c4e-478b-9582-54a7fe746cd7")
 			(units
 				(unit
 					(name "A")
@@ -3804,9 +3804,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "c9361a34-e073-4b63-b119-5c1c50a9e4d3")
+			(tstamps "de2f549f-349c-40d2-8aca-7ad3d56fb84f")
 			(units
 				(unit
 					(name "A")
@@ -3858,9 +3858,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "96581686-d7fc-4389-b34c-4b96c796bd2d")
+			(tstamps "fe2d16d1-da5c-42de-92e2-d893623d2438")
 			(units
 				(unit
 					(name "A")
@@ -3912,9 +3912,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "15753147-d2d9-4774-9843-4260af009284")
+			(tstamps "b329f9d7-02ab-4f8f-8ebc-cdfdd0ba168b")
 			(units
 				(unit
 					(name "A")
@@ -3966,9 +3966,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "202e6529-1e09-40c9-8ce9-156d708782a0")
+			(tstamps "19b7a592-7c80-43c2-a909-f74012d899ba")
 			(units
 				(unit
 					(name "A")
@@ -4020,9 +4020,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "f5e5ce77-475e-46cc-b425-96e0e5a06418")
+			(tstamps "dace0405-0ec6-4aca-8fdb-bb233ab95251")
 			(units
 				(unit
 					(name "A")
@@ -4074,9 +4074,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "13247007-666f-4013-8ec0-ced05cef7507")
+			(tstamps "4fe8bcb6-7ef4-4b0b-9951-dc7ca09abd51")
 			(units
 				(unit
 					(name "A")
@@ -4128,9 +4128,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "29482dc1-b958-4e38-9c5e-cf4f4adb6f46")
+			(tstamps "991a0751-5990-4fb2-890c-7d4313acdf84")
 			(units
 				(unit
 					(name "A")
@@ -4182,9 +4182,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "80c16198-c1fe-4fcc-95c3-daf1b4d63f20")
+			(tstamps "ff195e27-be2f-42b5-970e-6cb1af53e2f1")
 			(units
 				(unit
 					(name "A")
@@ -4236,9 +4236,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "22c3ab5b-4209-471a-8f2e-bfbc47bd8a18")
+			(tstamps "abed7d04-0619-4d25-98a3-fe2a50aba753")
 			(units
 				(unit
 					(name "A")
@@ -4290,9 +4290,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "bd3dbbb9-3a00-4f84-8b58-83e999463097")
+			(tstamps "80afc522-f2b2-4571-b54c-d40a10ce33f8")
 			(units
 				(unit
 					(name "A")
@@ -4344,9 +4344,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "e2fdfb07-53c0-4690-a348-94ef000db23f")
+			(tstamps "43209639-c359-4d72-a430-e133d8d1b949")
 			(units
 				(unit
 					(name "A")
@@ -4398,9 +4398,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "b5c78321-e8c9-4481-b9a9-98cd81897f78")
+			(tstamps "8d1c8739-ae09-4ce4-96fd-9a845bbb17e6")
 			(units
 				(unit
 					(name "A")
@@ -4452,9 +4452,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "50af828b-9686-4687-b316-d4de5e1a4d9f")
+			(tstamps "c3143844-ea8d-4f3e-afc7-28534d593077")
 			(units
 				(unit
 					(name "A")
@@ -4506,9 +4506,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "9c9f5734-24a8-4d16-bfca-5f4cb9e8c8f2")
+			(tstamps "643657cb-a621-42c7-ae92-3fee79e45c23")
 			(units
 				(unit
 					(name "A")
@@ -4560,9 +4560,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "fb3ea32c-1c7b-498c-a127-9125df812ae6")
+			(tstamps "6b192a1b-081d-4519-a65b-6055b0bdd298")
 			(units
 				(unit
 					(name "A")
@@ -4614,9 +4614,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "30b50624-68f6-449d-ae73-7b93327e79d9")
+			(tstamps "71b2666d-d146-4b01-9f33-7f4cebef6add")
 			(units
 				(unit
 					(name "A")
@@ -4668,9 +4668,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "576d66bb-2589-484d-8aa8-8d704fd8b956")
+			(tstamps "f7be9f35-868e-4451-88cd-f1256cca852e")
 			(units
 				(unit
 					(name "A")
@@ -4722,9 +4722,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "c3994bb0-1e4e-46ca-91e9-ef6177c3bc52")
+			(tstamps "abdb15ff-2aea-4500-ae7a-3f48a367c51a")
 			(units
 				(unit
 					(name "A")
@@ -4776,9 +4776,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "b6aba2df-a20b-41f9-8ec6-efc1e3aa1b29")
+			(tstamps "55dfda2b-74f9-4655-9b1b-b167b2571aed")
 			(units
 				(unit
 					(name "A")
@@ -4830,9 +4830,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "5e76a6ad-b754-4bdc-97ec-d705e1848610")
+			(tstamps "f231122a-5d6f-4014-827e-1e2b968461e0")
 			(units
 				(unit
 					(name "A")
@@ -4890,9 +4890,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "85739da0-2e00-4d98-a511-5a1c647bf1a2")
+			(tstamps "21cfa54b-da39-4beb-8db0-4266bd2931c1")
 			(units
 				(unit
 					(name "A")
@@ -4956,9 +4956,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "4d0e62c9-3801-45aa-b2ed-a80c0a3e0500")
+			(tstamps "47989142-21bd-4450-9138-31618451adb8")
 			(units
 				(unit
 					(name "A")
@@ -5013,9 +5013,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "0954691d-8499-4e0e-bbb1-0f1f79337c81")
+			(tstamps "0da15073-644e-4d8a-b199-08636a7c6098")
 			(units
 				(unit
 					(name "A")
@@ -5038,7 +5038,7 @@
 		)
 		(comp
 			(ref "R18")
-			(value "39k 1%")
+			(value "150k 1%")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(fields
 				(field
@@ -5073,9 +5073,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "434350ce-ae65-4c55-9218-94e3710800ac")
+			(tstamps "146ee8c5-448e-43a8-a847-59498366a295")
 			(units
 				(unit
 					(name "A")
@@ -5127,9 +5127,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "9a6a6a2f-0e82-4c30-a143-795283994207")
+			(tstamps "b4b6a45f-3c58-4f95-8619-eb4ade5bf929")
 			(units
 				(unit
 					(name "A")
@@ -5181,9 +5181,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "459fbc8f-db3d-41a9-99f0-c1e78d27cd13")
+			(tstamps "d14e0839-532f-47c2-99ef-ceddaa58ec31")
 			(units
 				(unit
 					(name "A")
@@ -5235,9 +5235,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "283607a5-904a-468b-82fe-bba9db398304")
+			(tstamps "fc645121-2c79-4f00-bd24-dc7bb72c0462")
 			(units
 				(unit
 					(name "A")
@@ -5289,9 +5289,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "a5a28dde-ce79-4602-a904-5996f55e97f9")
+			(tstamps "fb51f19f-38ab-4d4d-a451-48c4606e0de4")
 			(units
 				(unit
 					(name "A")
@@ -5308,7 +5308,7 @@
 		)
 		(comp
 			(ref "R23")
-			(value "100k 1%")
+			(value "220k 1%")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(fields
 				(field
@@ -5343,9 +5343,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "3a271a05-9161-4ab5-a215-1ab103e4c232")
+			(tstamps "cb14b407-b5e6-4afc-8be7-09c9f756d69f")
 			(units
 				(unit
 					(name "A")
@@ -5397,9 +5397,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "006e3e58-b5b5-4318-b31a-4b6ba99afa8b")
+			(tstamps "4f7276ea-8742-472d-9b12-f38923fe3740")
 			(units
 				(unit
 					(name "A")
@@ -5416,7 +5416,7 @@
 		)
 		(comp
 			(ref "R25")
-			(value "100k 1%")
+			(value "150k 1%")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(fields
 				(field
@@ -5451,9 +5451,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "1b1d4274-12dc-4431-a614-8adfe13821a4")
+			(tstamps "10cdf84a-b6f9-4009-9fd8-fd21e0d4639b")
 			(units
 				(unit
 					(name "A")
@@ -5505,9 +5505,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "657e7b35-8254-47ed-9382-21e9485797e9")
+			(tstamps "89659b8a-6837-45fd-9cf4-baefa9ce444d")
 			(units
 				(unit
 					(name "A")
@@ -5559,9 +5559,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "6e1f5944-8dee-4489-bca7-7194be8d00f6")
+			(tstamps "f9505073-5684-4a47-b8e3-a7ce86433d12")
 			(units
 				(unit
 					(name "A")
@@ -5613,9 +5613,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "375674a6-d49a-445b-9987-6051d3f6b714")
+			(tstamps "c2c452fb-9dc0-4352-a7ee-ac5628c95545")
 			(units
 				(unit
 					(name "A")
@@ -5667,9 +5667,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "44e9857b-bd2f-4400-862b-8e97825f940d")
+			(tstamps "908caded-bb41-4197-9db8-b77b42fec2c4")
 			(units
 				(unit
 					(name "A")
@@ -5721,9 +5721,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "573d32c7-23e0-4cb2-a6ef-de96af10dd9d")
+			(tstamps "355588a0-b813-4892-bd78-f093f602af25")
 			(units
 				(unit
 					(name "A")
@@ -5775,9 +5775,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "244caa04-2241-4cdb-938b-740685e03412")
+			(tstamps "9e2dfb7f-6f9c-4d5c-af34-db3c510a7bc7")
 			(units
 				(unit
 					(name "A")
@@ -5829,9 +5829,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "14a2d903-606e-4a12-83a5-64025c60b64b")
+			(tstamps "f9724b92-9767-4779-96b4-2848789b18fb")
 			(units
 				(unit
 					(name "A")
@@ -5883,9 +5883,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "f9cdd5f5-0567-4464-ac4a-6bcf4876a8f6")
+			(tstamps "d2d4bc67-a2e7-458c-9739-76a92db53497")
 			(units
 				(unit
 					(name "A")
@@ -5937,9 +5937,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "4cec3853-d94a-4279-9265-a9d9879e7e19")
+			(tstamps "7981bc9b-8ea2-42b1-8fe3-dbba5d2a5261")
 			(units
 				(unit
 					(name "A")
@@ -5991,9 +5991,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "7abd02ee-f634-49e3-aafc-267cfd3f92fe")
+			(tstamps "dc6061a8-0ec4-41ef-b2dd-c5ec1b310c5e")
 			(units
 				(unit
 					(name "A")
@@ -6045,9 +6045,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "128c25a7-2eee-488d-8206-834423dd553b")
+			(tstamps "370db8b6-5d3b-4994-aaa9-093960600b77")
 			(units
 				(unit
 					(name "A")
@@ -6099,9 +6099,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "7549b6aa-5116-4e12-83f1-452426bc66a2")
+			(tstamps "b0ee76c6-d6d6-44ce-a321-db14b475b815")
 			(units
 				(unit
 					(name "A")
@@ -6153,9 +6153,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "0d0d2b57-4437-47df-b103-79a34601a2b5")
+			(tstamps "7854984f-bd89-438a-935b-abad42967d82")
 			(units
 				(unit
 					(name "A")
@@ -6207,9 +6207,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "a02e41e6-6d44-4d4b-a2ea-ff8589c22dee")
+			(tstamps "bbe01bbe-3e94-44d9-a8e1-ec17c19440df")
 			(units
 				(unit
 					(name "A")
@@ -6261,9 +6261,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "58932ee8-3060-4232-857c-cbd8479a3a27")
+			(tstamps "0f3ee58c-03a6-4c67-94fc-4b61c95a77c7")
 			(units
 				(unit
 					(name "A")
@@ -6315,9 +6315,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "3ed18280-368a-42dd-ac4b-9683b27548ed")
+			(tstamps "1bb947de-44d7-4241-936c-781f423058f1")
 			(units
 				(unit
 					(name "A")
@@ -6369,9 +6369,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "10f5aff8-eb62-4e3c-8d8f-951a44573456")
+			(tstamps "9ca8d7ff-1025-4483-9919-fe6f1c4a949f")
 			(units
 				(unit
 					(name "A")
@@ -6423,9 +6423,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "d04793e2-e410-474f-9f7d-3b091e9d4310")
+			(tstamps "574dc7aa-b5ae-4da6-ac42-3d4038990de1")
 			(units
 				(unit
 					(name "A")
@@ -6477,9 +6477,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "21ee8d8d-a0bb-42b2-bb77-8effa021adc0")
+			(tstamps "04cf920f-52a4-4c45-ae18-1e7249e0f521")
 			(units
 				(unit
 					(name "A")
@@ -6531,9 +6531,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "bc90e911-b989-4c40-b89b-ffe6e6abc91b")
+			(tstamps "603b52a2-674e-438b-b2d0-9fd1d82cac7a")
 			(units
 				(unit
 					(name "A")
@@ -6585,9 +6585,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "e77d4f7d-9a4e-4add-86c9-e648bca11715")
+			(tstamps "1ed2fce6-7dcc-4f1e-89e5-ad54589aa24f")
 			(units
 				(unit
 					(name "A")
@@ -6644,9 +6644,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "2d437bd3-0909-4628-bda1-315dfc485e9a")
+			(tstamps "2377bd2c-a0af-4369-aa45-14aa8b394491")
 			(units
 				(unit
 					(name "A")
@@ -6694,9 +6694,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "acd7805d-3513-4263-acbc-41453638e2c7")
+			(tstamps "1c28cd9b-d5cc-49bb-a809-b21bd96bacf1")
 			(units
 				(unit
 					(name "A")
@@ -6744,9 +6744,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "d4eb3c8d-347d-423b-82ca-315decbfa2e2")
+			(tstamps "9ee863d5-fe4f-479c-8c8a-dd254a759cd6")
 			(units
 				(unit
 					(name "A")
@@ -6798,9 +6798,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "69b2c81c-4919-45bf-ad0a-6ae64f68eae5")
+			(tstamps "96f29446-0fab-4fc8-89ca-b978eed29dba")
 			(units
 				(unit
 					(name "A")
@@ -6849,9 +6849,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "dbbf2ee5-2018-4a4b-82a5-a4c11a61ccfc")
+			(tstamps "8ab26e49-6cc3-4f96-aea0-e0fbbf65eb91")
 			(units
 				(unit
 					(name "A")
@@ -6900,10 +6900,10 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "07951645-3ba9-453e-b26c-9630a4ffbe3e" "e360eb7d-c698-4c80-9b7a-8e2e7e3a141f"
-				"0114ada8-9089-4ba5-8468-cffef57f792a"
+			(tstamps "b967316d-b65f-4041-8a7b-ab6c6f4e8d7b" "aae64166-eb5f-4a20-a17d-69df68fcc819"
+				"61222d72-4caa-46e7-8308-dcca5e771e05"
 			)
 			(units
 				(unit
@@ -6984,9 +6984,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "759de3a1-c655-494b-bf83-e17a329f26ee")
+			(tstamps "e8ac4b3a-3929-4bc4-a695-e7ea4e402f53")
 			(units
 				(unit
 					(name "A")
@@ -7050,9 +7050,9 @@
 			)
 			(sheetpath
 				(names "/Control and UI/")
-				(tstamps "/82821ce0-b9b4-4762-a663-8899379f440f/")
+				(tstamps "/339009a7-3f79-484c-b072-0a11d6a1ad9e/")
 			)
-			(tstamps "cf96bc4a-60ea-40e5-81f8-7beedbbac8ba")
+			(tstamps "ba80276b-077e-4053-84fe-1662df78819f")
 			(units
 				(unit
 					(name "A")
@@ -9724,8 +9724,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "40")
-				(pinfunction "PD2_40")
+				(pin "11")
+				(pinfunction "PA0_11")
 				(pintype "bidirectional")
 			)
 		)
@@ -9745,8 +9745,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "30")
-				(pinfunction "PC6_30")
+				(pin "15")
+				(pinfunction "PA4_15")
 				(pintype "bidirectional")
 			)
 		)
@@ -9766,8 +9766,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "41")
-				(pinfunction "PD3_41")
+				(pin "12")
+				(pinfunction "PA1_12")
 				(pintype "bidirectional")
 			)
 		)
@@ -9851,8 +9851,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "8")
-				(pinfunction "PF0_8")
+				(pin "38")
+				(pinfunction "PD0_38")
 				(pintype "bidirectional")
 			)
 		)
@@ -9868,8 +9868,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "9")
-				(pinfunction "PF1_9")
+				(pin "40")
+				(pinfunction "PD2_40")
 				(pintype "bidirectional")
 			)
 		)
@@ -9885,8 +9885,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "38")
-				(pinfunction "PD0_38")
+				(pin "41")
+				(pinfunction "PD3_41")
 				(pintype "bidirectional")
 			)
 		)
@@ -9906,8 +9906,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "17")
-				(pinfunction "PA6_17")
+				(pin "42")
+				(pinfunction "PB3_42")
 				(pintype "bidirectional")
 			)
 		)
@@ -9927,8 +9927,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "18")
-				(pinfunction "PA7_18")
+				(pin "43")
+				(pinfunction "PB4_43")
 				(pintype "bidirectional")
 			)
 		)
@@ -9948,8 +9948,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "28")
-				(pinfunction "PA8_28")
+				(pin "44")
+				(pinfunction "PB5_44")
 				(pintype "bidirectional")
 			)
 		)
@@ -10395,8 +10395,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "33")
-				(pinfunction "PA9/PA11_33")
+				(pin "45")
+				(pinfunction "PB6_45")
 				(pintype "bidirectional")
 			)
 		)
@@ -10417,8 +10417,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "34")
-				(pinfunction "PA10/PA12_34")
+				(pin "46")
+				(pinfunction "PB7_46")
 				(pintype "bidirectional")
 			)
 		)
@@ -10478,8 +10478,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "31")
-				(pinfunction "PC7_31")
+				(pin "16")
+				(pinfunction "PA5_16")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10586,8 +10586,8 @@
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "11")
-				(pinfunction "PA0_11")
+				(pin "17")
+				(pinfunction "PA6_17")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10603,8 +10603,8 @@
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "12")
-				(pinfunction "PA1_12")
+				(pin "18")
+				(pinfunction "PA7_18")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10625,8 +10625,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "13")
-				(pinfunction "PA2_13")
+				(pin "47")
+				(pinfunction "PB8_47")
 				(pintype "bidirectional")
 			)
 		)
@@ -10662,8 +10662,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "14")
-				(pinfunction "PA3_14")
+				(pin "24")
+				(pinfunction "PB12_24")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10767,8 +10767,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "42")
-				(pinfunction "PB3_42")
+				(pin "14")
+				(pinfunction "PA3_14")
 				(pintype "bidirectional")
 			)
 		)
@@ -10789,8 +10789,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "21")
-				(pinfunction "PB2_21")
+				(pin "13")
+				(pinfunction "PA2_13")
 				(pintype "bidirectional")
 			)
 		)
@@ -10888,8 +10888,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "16")
-				(pinfunction "PA5_16")
+				(pin "23")
+				(pinfunction "PB11_23")
 				(pintype "bidirectional")
 			)
 			(node
@@ -10953,8 +10953,8 @@
 			)
 			(node
 				(ref "U10")
-				(pin "15")
-				(pinfunction "PA4_15")
+				(pin "22")
+				(pinfunction "PB10_22")
 				(pintype "bidirectional")
 			)
 		)
@@ -11079,61 +11079,50 @@
 		)
 		(net
 			(code "92")
-			(name "unconnected-(U10-PB4-Pad43)")
+			(name "unconnected-(U10-PA8-Pad28)")
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "43")
-				(pinfunction "PB4_43")
+				(pin "28")
+				(pinfunction "PA8_28")
 				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
 			(code "93")
-			(name "unconnected-(U10-PB5-Pad44)")
+			(name "unconnected-(U10-PA9{slash}PA11-Pad33)")
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "44")
-				(pinfunction "PB5_44")
+				(pin "33")
+				(pinfunction "PA9/PA11_33")
 				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
 			(code "94")
-			(name "unconnected-(U10-PB6-Pad45)")
+			(name "unconnected-(U10-PA10{slash}PA12-Pad34)")
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "45")
-				(pinfunction "PB6_45")
+				(pin "34")
+				(pinfunction "PA10/PA12_34")
 				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
 			(code "95")
-			(name "unconnected-(U10-PB7-Pad46)")
+			(name "unconnected-(U10-PB2-Pad21)")
 			(class "Default")
 			(node
 				(ref "U10")
-				(pin "46")
-				(pinfunction "PB7_46")
+				(pin "21")
+				(pinfunction "PB2_21")
 				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
 			(code "96")
-			(name "unconnected-(U10-PB8-Pad47)")
-			(class "Default")
-			(node
-				(ref "U10")
-				(pin "47")
-				(pinfunction "PB8_47")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "97")
 			(name "unconnected-(U10-PB9-Pad48)")
 			(class "Default")
 			(node
@@ -11144,40 +11133,7 @@
 			)
 		)
 		(net
-			(code "98")
-			(name "unconnected-(U10-PB10-Pad22)")
-			(class "Default")
-			(node
-				(ref "U10")
-				(pin "22")
-				(pinfunction "PB10_22")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "99")
-			(name "unconnected-(U10-PB11-Pad23)")
-			(class "Default")
-			(node
-				(ref "U10")
-				(pin "23")
-				(pinfunction "PB11_23")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "100")
-			(name "unconnected-(U10-PB12-Pad24)")
-			(class "Default")
-			(node
-				(ref "U10")
-				(pin "24")
-				(pinfunction "PB12_24")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "101")
+			(code "97")
 			(name "unconnected-(U10-PB13-Pad25)")
 			(class "Default")
 			(node
@@ -11188,7 +11144,7 @@
 			)
 		)
 		(net
-			(code "102")
+			(code "98")
 			(name "unconnected-(U10-PB14-Pad26)")
 			(class "Default")
 			(node
@@ -11199,13 +11155,57 @@
 			)
 		)
 		(net
-			(code "103")
+			(code "99")
 			(name "unconnected-(U10-PB15-Pad27)")
 			(class "Default")
 			(node
 				(ref "U10")
 				(pin "27")
 				(pinfunction "PB15_27")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(U10-PC6-Pad30)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "30")
+				(pinfunction "PC6_30")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(U10-PC7-Pad31)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "31")
+				(pinfunction "PC7_31")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(U10-PF0-Pad8)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "8")
+				(pinfunction "PF0_8")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(U10-PF1-Pad9)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "9")
+				(pinfunction "PF1_9")
 				(pintype "bidirectional+no_connect")
 			)
 		)

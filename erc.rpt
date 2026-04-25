@@ -1,4 +1,4 @@
-ERC report (2026-08-01T14:06:32, Encoding UTF8)
+ERC report (2026-08-01T14:07:21, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -367,6 +367,12 @@ Report includes: Errors, Warnings
     @(83.82 mm, 133.35 mm): Symbol #PWR56 [GND]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
+    @(93.98 mm, 180.34 mm): Symbol C26 [C]
+[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
+    ; warning
+    @(93.98 mm, 184.15 mm): Symbol #PWR69 [GND]
+[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
+    ; warning
     @(95.25 mm, 119.38 mm): Symbol R22 [R]
 [lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
     ; warning
@@ -386,12 +392,6 @@ Report includes: Errors, Warnings
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(105.41 mm, 133.35 mm): Symbol #PWR57 [GND]
-[lib_symbol_issues]: The symbol library 'Device' was not found at '/usr/share/kicad/symbols/Device.kicad_sym'
-    ; warning
-    @(114.30 mm, 180.34 mm): Symbol C26 [C]
-[lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
-    ; warning
-    @(114.30 mm, 184.15 mm): Symbol #PWR69 [GND]
 [lib_symbol_issues]: The symbol library 'power' was not found at '/usr/share/kicad/symbols/power.kicad_sym'
     ; warning
     @(121.92 mm, 74.93 mm): Symbol #PWR52 [GND]
