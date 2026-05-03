@@ -56,5 +56,9 @@ int main(void)
 {
     clock_init();
     gpio_init();
-    for (;;) ;
+    adc_init();
+
+    for (;;) {
+        measure();
+    }
 }

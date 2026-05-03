@@ -53,4 +53,7 @@ void gpio_mode_input_pullup(uint32_t port, int n);
 void gpio_mode_analog(uint32_t port, int n);
 void gpio_mode_af(uint32_t port, int n, int af);
 
+void adc_init(void);
+void measure(void);
+
 #endif
