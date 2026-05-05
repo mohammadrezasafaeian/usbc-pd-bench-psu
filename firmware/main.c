@@ -57,6 +57,9 @@ int main(void)
     clock_init();
     gpio_init();
     adc_init();
+    pwm_init();
+
+    output_enable(false);
 
     for (;;) {
         measure();

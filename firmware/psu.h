@@ -56,4 +56,9 @@ void gpio_mode_af(uint32_t port, int n, int af);
 void adc_init(void);
 void measure(void);
 
+void pwm_init(void);
+void set_ref_dac(uint16_t millivolts);
+void set_leg_duty(uint16_t duty_a, uint16_t duty_b);
+void output_enable(bool on);
+
 #endif

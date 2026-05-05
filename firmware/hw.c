@@ -71,3 +71,54 @@ void measure(void)
     uint32_t mv = ((uint32_t)adc_avg(ADC_CH_ISNS) * VREF_MV) / ADC_FULL;
     psu.i_out = (uint16_t)((mv * 2) / 5);
 }
+
+/* ------------------------------------------------------------------- PWM */
+
+void pwm_init(void)
+{
+    /* 16 MHz / 1024 = 15.6 kHz. The schematic targets 250 kHz, which needs
+     * the PLL - a separate change. */
+    TIM_PSC(TIM3)   = PWM_PERIOD - 1;
+    TIM_CCMR1(TIM3) = (6u << 4) | (1u << 3) | (6u << 12) | (1u << 11);  /* PWM1 + preload */
+    TIM_CCER(TIM3)  = (1u << 0) | (1u << 4);   /* CC1E | CC2E */
+    TIM_CCR1(TIM3)  = 0;
+    TIM_CCR2(TIM3)  = 0;
+    TIM_CR1(TIM3)   = (1u << 7) | (1u << 0);   /* ARPE | CEN  */
+
+    TIM_PSC(TIM16)   = PWM_PERIOD - 1;
+    TIM_CCMR1(TIM16) = (6u << 4) | (1u << 3);
+    TIM_CCER(TIM16)  = (1u << 0);
+    TIM_BDTR(TIM16)  = (1u << 15);             /* MOE - TIM16 has a break unit */
+    TIM_CCR1(TIM16)  = 0;
+    TIM_CR1(TIM16)   = (1u << 7) | (1u << 0);
+}
+
+void set_ref_dac(uint16_t millivolts)
+{
+    /* The analogue chain scales the filtered PWM by the same 16:1 as the
+     * feedback divider, so duty maps straight onto the setpoint. */
+    uint32_t duty = ((uint32_t)millivolts * PWM_PERIOD) / VOUT_MAX_MV;
+    TIM_CCR1(TIM16) = (uint32_t)clamp((int32_t)duty, 0, PWM_PERIOD);
+}
+
+void set_leg_duty(uint16_t duty_a, uint16_t duty_b)
+{
+    TIM_CCR1(TIM3) = duty_a;
+    TIM_CCR2(TIM3) = duty_b;
+}
+
+void output_enable(bool on)
+{
+    psu.output_on = on;
+    if (on) {
+        MODER(GPIOB) &= ~(3u << (12 * 2));  /* release SHDN_N to the pull-up */
+        pin_high(PIN_LED_OUT);
+    } else {
+        /* Firmware can only pull SHDN_N low; it never drives it high. */
+        gpio_mode_output(PIN_SHDN_N);
+        pin_low(PIN_SHDN_N);
+        pin_low(PIN_LED_OUT);
+        set_ref_dac(0);
+        set_leg_duty(0, 0);
+    }
+}
