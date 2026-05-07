@@ -62,6 +62,6 @@ int main(void)
     output_enable(false);
 
     for (;;) {
-        measure();
+        control_step();
     }
 }

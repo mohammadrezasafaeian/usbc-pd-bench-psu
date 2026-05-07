@@ -61,4 +61,6 @@ void set_ref_dac(uint16_t millivolts);
 void set_leg_duty(uint16_t duty_a, uint16_t duty_b);
 void output_enable(bool on);
 
+void control_step(void);
+
 #endif
