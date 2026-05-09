@@ -21,6 +21,14 @@ void control_step(void)
     }
 
     uint16_t target = psu.v_set;
+
+    /* Current limit beats voltage. The analogue loop does the limiting;
+     * this only walks the reference down. */
+    psu.cc_active = (psu.i_out >= psu.i_limit);
+    if (psu.cc_active) {
+        int32_t over = (int32_t)psu.i_out - (int32_t)psu.i_limit;
+        target = (uint16_t)clamp((int32_t)target - over * 4, 0, VOUT_MAX_MV);
+    }
     set_ref_dac(target);
 
     /* Enough headroom to regulate, little enough to stay cool. */
@@ -38,4 +46,13 @@ void control_step(void)
         set_leg_duty((uint16_t)duty, PWM_PERIOD - 1);   /* buck  */
     else
         set_leg_duty(PWM_PERIOD - 1, (uint16_t)duty);   /* boost */
+
+    if (psu.v_out > VOUT_MAX_MV + 2000) {
+        psu.fault = FAULT_OVERVOLTAGE;
+        output_enable(false);
+    }
+    if (psu.v_pre + 500 < psu.v_out) {     /* pre-reg fell below the output */
+        psu.fault = FAULT_TRACKING;
+        output_enable(false);
+    }
 }
