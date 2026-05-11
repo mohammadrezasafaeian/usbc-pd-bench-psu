@@ -11,6 +11,13 @@ static uint16_t target_headroom(uint16_t i_ma)
     return (uint16_t)clamp(h, HEADROOM_MIN, HEADROOM_MAX);
 }
 
+/* A cell sags under load, and that is the whole model. */
+static uint16_t battery_target(void)
+{
+    int32_t sag = ((int32_t)psu.i_out * psu.bat_r_int) / 1000;
+    return (uint16_t)clamp((int32_t)psu.bat_v_oc - sag, 0, VOUT_MAX_MV);
+}
+
 void control_step(void)
 {
     measure();
@@ -20,7 +27,7 @@ void control_step(void)
         return;
     }
 
-    uint16_t target = psu.v_set;
+    uint16_t target = (psu.mode == MODE_BATTERY) ? battery_target() : psu.v_set;
 
     /* Current limit beats voltage. The analogue loop does the limiting;
      * this only walks the reference down. */
