@@ -60,8 +60,12 @@ int main(void)
     pwm_init();
 
     output_enable(false);
+    pd_negotiate();
 
-    for (;;) {
-        control_step();
+    for (uint32_t tick = 0; ; tick++) {
+        control_step();                        /* 5 kHz  */
+
+        if (tick % (LOOP_HZ / UI_HZ) == 0)     /* 100 Hz */
+            pd_follow_setpoint();
     }
 }

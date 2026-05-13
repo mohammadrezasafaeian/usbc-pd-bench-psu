@@ -63,4 +63,7 @@ void output_enable(bool on);
 
 void control_step(void);
 
+void pd_negotiate(void);
+void pd_follow_setpoint(void);
+
 #endif
