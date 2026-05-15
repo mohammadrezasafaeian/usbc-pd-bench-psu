@@ -66,4 +66,6 @@ void control_step(void);
 void pd_negotiate(void);
 void pd_follow_setpoint(void);
 
+void ui_poll(uint32_t tick_ms);
+
 #endif

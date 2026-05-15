@@ -1,5 +1,13 @@
 /* USB-C PD Bench Power Supply - v1.2
- * STM32G030C8T6, bare metal, no HAL. */
+ * STM32G030C8T6, bare metal, no HAL.
+ *
+ *   hw.c       GPIO / ADC / PWM
+ *   control.c  PI loop, current limit, battery emulation
+ *   pd.c       PDO selection
+ *   ui.c       encoder, buttons, LEDs
+ *
+ * SUPPLY is constant voltage with a current limit; BATTERY emulates a cell
+ * as V_out = V_oc - I_load * R_internal. */
 
 #include "psu.h"
 
@@ -62,10 +70,14 @@ int main(void)
     output_enable(false);
     pd_negotiate();
 
+    /* 5 kHz control, 100 Hz UI. A timer interrupt would be tidier; the busy
+     * loop keeps the flow obvious. */
     for (uint32_t tick = 0; ; tick++) {
-        control_step();                        /* 5 kHz  */
+        control_step();
 
-        if (tick % (LOOP_HZ / UI_HZ) == 0)     /* 100 Hz */
+        if (tick % (LOOP_HZ / UI_HZ) == 0) {
+            ui_poll(tick / (LOOP_HZ / 1000));
             pd_follow_setpoint();
+        }
     }
 }
