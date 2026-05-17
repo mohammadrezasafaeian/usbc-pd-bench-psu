@@ -77,15 +77,15 @@ void measure(void)
 void pwm_init(void)
 {
     /* 16 MHz / 1024 = 15.6 kHz. The schematic targets 250 kHz, which needs
-     * the PLL - a separate change. */
-    TIM_PSC(TIM3)   = PWM_PERIOD - 1;
+     * the PLL - a separate change. ARR is 0x2C; 0x28 is PSC. */
+    TIM_ARR(TIM3)   = PWM_PERIOD - 1;
     TIM_CCMR1(TIM3) = (6u << 4) | (1u << 3) | (6u << 12) | (1u << 11);  /* PWM1 + preload */
     TIM_CCER(TIM3)  = (1u << 0) | (1u << 4);   /* CC1E | CC2E */
     TIM_CCR1(TIM3)  = 0;
     TIM_CCR2(TIM3)  = 0;
     TIM_CR1(TIM3)   = (1u << 7) | (1u << 0);   /* ARPE | CEN  */
 
-    TIM_PSC(TIM16)   = PWM_PERIOD - 1;
+    TIM_ARR(TIM16)   = PWM_PERIOD - 1;
     TIM_CCMR1(TIM16) = (6u << 4) | (1u << 3);
     TIM_CCER(TIM16)  = (1u << 0);
     TIM_BDTR(TIM16)  = (1u << 15);             /* MOE - TIM16 has a break unit */
