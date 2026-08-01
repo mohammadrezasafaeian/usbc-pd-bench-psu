@@ -348,12 +348,12 @@ rail as an off-sheet module. Both are resolved here.
 | File | |
 |---|---|
 | **[`sch.pdf`](sch.pdf)** | **4-page schematic — start here** |
+| **[`docs/design-evolution.pdf`](docs/design-evolution.pdf)** | **how the design got here — every revision, v0.3 to v1.3** |
 | `usbc_pd_psu.kicad_sch` | KiCad 9 project (root sheet) |
 | `power.kicad_sch` | sheet 1 — input, PD trigger, 12 V rail, buck-boost, drivers, OCP |
 | `control.kicad_sch` | sheet 2 — post-regulator, current sense, MCU, UI |
 | `bom.csv` · `netlist.net` · `erc.rpt` | outputs |
 | `firmware/` | bare-metal C: control loop, battery emulation, diagnostics (`hw` / `control` / `pd` / `ui`) |
-| `docs/` | the superseded earlier sheet |
 | [`AUTHORSHIP.md`](AUTHORSHIP.md) | design reasoning and provenance |
 
 Drawn in **KiCad 9** using stock symbol and footprint libraries only — no custom parts, so the
